@@ -3,12 +3,12 @@ require 'pry'
 def key_for_min_value(name_hash)
   values = []
   name = ""
-  name_hash.collect do |key, value|
+  name_hash.each_pair do |key, value|
     values << value
-    until values.count == 1
-    values.delete.max_by {|a, b| a <=> b}
+    values.minmax
     binding.pry
   end
-  name
+name
 end
-end
+
+value.max_by {|a, b| a <=> b}

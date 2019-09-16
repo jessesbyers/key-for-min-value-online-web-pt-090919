@@ -7,10 +7,11 @@ def key_for_min_value(name_hash)
     values << value
   end
   num = values.minmax[0]
+
+
   if name_hash.value?(num)
-    return key
-  else
-    return nil
+    name_hash.index(value) => key
+
   end
 end
 

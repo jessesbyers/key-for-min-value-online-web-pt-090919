@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     name_hash.index(values.minmax[0])
 end
   end
-  binding.pry
+#  binding.pry
 end
 
 #value.max_by {|a, b| a <=> b}

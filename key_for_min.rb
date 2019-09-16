@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     name << name_hash.index(values.minmax[0])
 end
   end
-name
+
 end
 
 #value.max_by {|a, b| a <=> b}

@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
 
 
   if name_hash.value?(num)
-    name_hash.index(value) => key
+    name_hash.index(value)
 
   end
 end

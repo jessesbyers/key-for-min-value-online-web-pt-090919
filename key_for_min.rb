@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     name = name_hash.index(values.minmax[0])
     return name
   else
-    return nil
+    return "nil"
 end
   end
 end

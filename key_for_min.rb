@@ -12,7 +12,6 @@ def key_for_min_value(name_hash)
     return "nil"
 end
   end
-  name
 end
 
 #value.max_by {|a, b| a <=> b}

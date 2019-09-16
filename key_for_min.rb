@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
 
 
   if name_hash.value?(values.minmax[0])
-    name_hash.index(value)
+    name_hash.index(values.minmax[0])
 end
   end
   binding.pry
